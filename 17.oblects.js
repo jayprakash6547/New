@@ -17,5 +17,10 @@ manufacturer:{
 },
 topspeed :429,
 color :"black",
-spoilers: false
+spoilers: false,
+applyBreakes:function(){
+    setTimeout(function(){
+console.log('car Stopped');
+    },5000)
+}
 }
